@@ -1,6 +1,6 @@
-package actions;
+package project.actions;
 
-import browser.Driver;
+import project.browser.Driver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

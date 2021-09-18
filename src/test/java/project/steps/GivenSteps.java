@@ -1,2 +1,4 @@
-package project.steps;public class GivenSteps {
+package project.steps;
+
+public class GivenSteps {
 }

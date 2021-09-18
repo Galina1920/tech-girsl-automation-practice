@@ -1,4 +1,4 @@
-package configuration;
+package project.configuration;
 
 import cucumber.runtime.DefaultTypeRegistryConfiguration;
 

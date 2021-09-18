@@ -1,2 +1,4 @@
-package project.steps;public class WhenSteps {
+package project.steps;
+
+public class WhenSteps {
 }
