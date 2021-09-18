@@ -1,2 +1,4 @@
-package project.steps;public class ThenSteps {
+package project.steps;
+
+public class ThenSteps {
 }
