@@ -11,7 +11,7 @@ public class Driver {
 
     public static WebDriver runDriver() {
         if (Objects.isNull(driver)) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Downloads\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
