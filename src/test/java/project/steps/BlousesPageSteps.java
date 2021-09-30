@@ -1,5 +1,6 @@
 package project.steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -22,6 +23,12 @@ public class BlousesPageSteps {
     @Then("success message is displayed")
     public void successMessageIsDisplayed() {
         BlousesPage blousesPage = new BlousesPage();
-        blousesPage.successIconIsDisplayed();
+        Assert.assertTrue(blousesPage.successIconIsDisplayed());
+    }
+
+    @And("user hovers the blouse area")
+    public void userHoversTheBlouseArea() {
+        BlousesPage blousesPage  = new BlousesPage();
+        blousesPage.hoverBlouseArea();
     }
 }
